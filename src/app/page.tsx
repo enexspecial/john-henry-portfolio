@@ -21,6 +21,21 @@ export default function Home() {
     ai: ['Cursor', 'GitHub Copilot', 'OpenAI APIs', 'LangChain']
   }
 
+  // Hero Section Skills and Achievements
+  const heroSkills = [
+    { icon: 'Code', text: "Node.js • TypeScript • Go • Python" },
+    { icon: 'Database', text: "PostgreSQL • Redis • MongoDB • AWS" },
+    { icon: 'Globe', text: "React • GraphQL • REST APIs • Microservices" },
+    { icon: 'Zap', text: "AI/ML Integration • LLM Workflows • DevOps" }
+  ];
+
+  const heroAchievements = [
+    { icon: 'Users', value: "7", label: "African Countries" },
+    { icon: 'TrendingUp', value: "8+", label: "Years Experience" },
+    { icon: 'Database', value: "99.9%", label: "System Uptime" },
+    { icon: 'Zap', value: "40%", label: "Faster Delivery" }
+  ];
+
   const projects = [
     {
       title: 'Real-time Note Sharing App',
@@ -129,7 +144,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white dark:from-dark-900 dark:to-dark-800">
       <Navbar />
-      <HeroSection />
+      <HeroSection skills={heroSkills} achievements={heroAchievements} />
       <SkillsMatrix skills={skills} />
       <AIIntegration />
       <ProjectCaseStudies projects={projects} />
