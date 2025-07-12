@@ -70,7 +70,7 @@ export default function HeroSection({ skills, achievements }: HeroSectionProps) 
           {/* Value Proposition */}
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
             I architect and build <strong>scalable backend systems</strong> that power mission-critical applications. 
-            With 8+ years delivering high-performance solutions across fintech and e-health, I've deployed systems 
+            With 8+ years delivering high-performance solutions across fintech and e-health, I&apos;ve deployed systems 
             serving millions of users across 7 African countries with <strong>99.9% uptime</strong>.
           </p>
 
@@ -151,7 +151,7 @@ export default function HeroSection({ skills, achievements }: HeroSectionProps) 
             
             <button className="btn-primary flex items-center gap-2 px-6 py-3 text-lg font-semibold bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700">
               <Mail size={20} />
-              Let's Connect
+              Let&apos;s Connect
             </button>
           </motion.div>
 
