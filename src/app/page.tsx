@@ -40,22 +40,45 @@ export default function Home() {
     {
       title: 'Real-time Note Sharing App',
       description: 'Built a collaborative note-taking platform with real-time synchronization using React and GraphQL.',
-      role: 'Full-stack Developer',
-      tools: ['React', 'GraphQL', 'Node.js', 'PostgreSQL'],
+      role: 'Product Owner | Full-stack Developer',
+      tools: ['React', 'GraphQL', 'Node.js', 'PostgreSQL', 'NestJs', 'RestAPI'],
       features: ['Real-time collaboration', 'Markdown support', 'User authentication', 'Version history'],
       demo: 'https://notes-app-demo.vercel.app',
       github: 'https://github.com/enexspecial/real-time-collab',
       image: '/api/placeholder/400/250'
     },
     {
-      title: 'Intelligent Compliance Engine',
-      description: 'Led development of a comprehensive electronic health records system for healthcare providers.',
-      role: 'CTO / Senior Developer',
-      tools: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
-      features: ['Patient records', 'Appointment scheduling', 'Billing integration', 'HIPAA compliance'],
-      demo: 'https://ehealth-demo.vercel.app',
-      github: 'https://github.com/enexspecial/inteligent-compliance-engine',
-      image: '/api/placeholder/400/250'
+      "title": "Intelligent Compliance Engine",
+      "description": "Developed a modular, scalable compliance engine for electronic health records, enabling healthcare providers to automate compliance checks, manage documents, and ensure regulatory adherence. Features a microservices architecture with real-time analysis, secure authentication, and seamless integration with third-party systems.",
+      "role": "Product Owner | Full-stack Developer",
+      "tools": [
+        "React Native",
+        "NestJS",
+        "Node.js",
+        "Go",
+        "PostgreSQL",
+        "gRPC",
+        "Docker",
+        "BullMQ",
+        "Redis",
+        "FastAPI",
+        "Python",
+        "LLM",
+        'Microservices',
+      ],
+      "features": [
+        "Automated compliance analysis",
+        "Document management",
+        "User authentication & roles",
+        "Job queue processing",
+        "Microservices architecture",
+        "API gateway",
+        "Real-time notifications",
+        "HIPAA compliance"
+      ],
+      "demo": "https://ehealth-demo.vercel.app",
+      "github": "https://github.com/enexspecial/inteligent-compliance-engine",
+      "image": "/api/placeholder/400/250"
     }
   ]
 

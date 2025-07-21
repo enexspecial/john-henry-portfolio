@@ -77,7 +77,7 @@ export default function ProjectCaseStudies({ projects }: ProjectCaseStudiesProps
                 </ul>
               </div>
               <div className="flex gap-3">
-                {project.demo && (
+                {/* {project.demo && (
                   <a
                     href={project.demo}
                     target="_blank"
@@ -87,7 +87,7 @@ export default function ProjectCaseStudies({ projects }: ProjectCaseStudiesProps
                     <Play size={16} />
                     Live Demo
                   </a>
-                )}
+                )} */}
                 {project.github && (
                   <a
                     href={project.github}
