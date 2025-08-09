@@ -48,12 +48,12 @@ export default function Home() {
       image: '/api/placeholder/400/250'
     },
     {
-      "title": "Intelligent Compliance Engine",
-      "description": "Developed a modular, scalable compliance engine for electronic health records, enabling healthcare providers to automate compliance checks, manage documents, and ensure regulatory adherence. Features a microservices architecture with real-time analysis, secure authentication, and seamless integration with third-party systems.",
-      "role": "Product Owner | Full-stack Developer",
-      "tools": [
+      title: "Intelligent Compliance Engine",
+      description: "Developed a modular, scalable compliance engine for electronic health records, enabling healthcare providers to automate compliance checks, manage documents, and ensure regulatory adherence. Features a microservices architecture with real-time analysis, secure authentication, and seamless integration with third-party systems.",
+      role: "Product Owner | Full-stack Developer",
+      tools: [
         "React Native",
-        "NestJS",
+        "NestJS", 
         "Node.js",
         "Go",
         "PostgreSQL",
@@ -64,11 +64,11 @@ export default function Home() {
         "FastAPI",
         "Python",
         "LLM",
-        'Microservices',
+        "Microservices"
       ],
-      "features": [
+      features: [
         "Automated compliance analysis",
-        "Document management",
+        "Document management", 
         "User authentication & roles",
         "Job queue processing",
         "Microservices architecture",
@@ -76,9 +76,90 @@ export default function Home() {
         "Real-time notifications",
         "HIPAA compliance"
       ],
-      "demo": "https://ehealth-demo.vercel.app",
-      "github": "https://github.com/enexspecial/inteligent-compliance-engine",
-      "image": "/api/placeholder/400/250"
+      demo: "https://ehealth-demo.vercel.app",
+      github: "https://github.com/enexspecial/inteligent-compliance-engine",
+      image: "/api/placeholder/400/250"
+    },
+    {
+      title: "TelecomBot: AI-Powered Customer Service Platform",
+      description: "Architected and optimized a comprehensive AI-driven customer service platform for telecommunications companies. Transformed a complex, error-prone setup process into a streamlined one-command installation, reducing setup time from 45+ minutes to under 5 minutes. Built with 100% open-source tools for zero ongoing costs.",
+      role: "Technical Lead | AI Engineer | DevOps Specialist",
+      tools: [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Ollama",
+        "PyTorch",
+        "Transformers",
+        "ChromaDB",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Streamlit",
+        "Grafana",
+        "Prometheus",
+        "OpenAI Whisper",
+        "Vector Databases"
+      ],
+      features: [
+        "Multi-modal AI chatbot (text & voice)",
+        "Local LLM deployment (Llama 3.1)",
+        "Real-time conversation analytics",
+        "Voice-to-text processing",
+        "Business process automation",
+        "Progressive installation complexity",
+        "Microservices architecture",
+        "Zero-cost operation",
+        "GDPR-compliant (local processing)"
+      ],
+      demo: "http://localhost:8501",
+      github: "https://github.com/enexspecial/telecom-ai-bot",
+      image: "/api/placeholder/400/250",
+      highlights: [
+        "Reduced setup complexity by 90%",
+        "Eliminated 4 confusing installation scripts",
+        "Implemented graceful dependency fallbacks", 
+        "Created progressive complexity options",
+        "Built comprehensive error handling"
+      ]
+    },
+    {
+      title: "Discord Crypto Wallet Bot",
+      description: "Engineered a full-stack Discord bot that integrates Ko-fi donations with automated digital currency distribution. Features secure webhook processing, atomic database transactions, and comprehensive wallet management through Discord slash commands. Implemented with Docker containerization and production-ready security measures.",
+      role: "Backend Developer | DevOps Engineer | Security Specialist",
+      tools: [
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "Discord.js",
+        "PostgreSQL",
+        "Docker",
+        "Jest",
+        "ESLint",
+        "HMAC-SHA256",
+        "Connection Pooling"
+      ],
+      features: [
+        "Ko-fi webhook integration",
+        "Slash command interface (/balance, /tip, /transactions)",
+        "Atomic financial transactions",
+        "Webhook signature verification",
+        "Rate limiting & security middleware",
+        "Real-time user notifications",
+        "Automated user account creation",
+        "Transaction history tracking",
+        "Health monitoring endpoints"
+      ],
+      demo: "http://localhost:3000/health",
+      github: "https://github.com/enexspecial/discord-wallet-bot",
+      image: "/api/placeholder/400/250",
+      highlights: [
+        "Implemented secure webhook signature verification",
+        "Built atomic transaction system preventing race conditions",
+        "Created production-ready Docker deployment",
+        "Designed modular architecture with 95% test coverage",
+        "Integrated HMAC-SHA256 security for financial operations"
+      ]
     }
   ]
 
