@@ -41,9 +41,17 @@ export default function ProjectCaseStudies({ projects }: ProjectCaseStudiesProps
               className="card group"
             >
               <div className="aspect-video bg-gray-200 dark:bg-dark-700 rounded-lg mb-6 overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900 dark:to-purple-900 flex items-center justify-center">
-                  <Code size={48} className="text-primary-600" />
-                </div>
+                {project.image && project.image !== "/api/placeholder/400/250" ? (
+                  <img 
+                    src={project.image} 
+                    alt={`${project.title} screenshot`}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900 dark:to-purple-900 flex items-center justify-center">
+                    <Code size={48} className="text-primary-600" />
+                  </div>
+                )}
               </div>
               <h3 className="text-2xl font-bold mb-2 group-hover:text-primary-600 transition-colors">
                 {project.title}

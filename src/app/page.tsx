@@ -45,7 +45,7 @@ export default function Home() {
       features: ['Real-time collaboration', 'Markdown support', 'User authentication', 'Version history'],
       demo: 'https://notes-app-demo.vercel.app',
       github: 'https://github.com/enexspecial/real-time-collab',
-      image: '/api/placeholder/400/250'
+      image: '/realtime_sharing.png'
     },
     {
       title: "Intelligent Compliance Engine",
@@ -78,7 +78,7 @@ export default function Home() {
       ],
       demo: "https://ehealth-demo.vercel.app",
       github: "https://github.com/enexspecial/inteligent-compliance-engine",
-      image: "/api/placeholder/400/250"
+      image: "/intelliegent_compliance.png"
     },
     {
       title: "TelecomBot: AI-Powered Customer Service Platform",
@@ -114,7 +114,7 @@ export default function Home() {
       ],
       demo: "http://localhost:8501",
       github: "https://github.com/enexspecial/telecom-ai-bot",
-      image: "/api/placeholder/400/250",
+      image: "/telecombot.png",
       highlights: [
         "Reduced setup complexity by 90%",
         "Eliminated 4 confusing installation scripts",
@@ -152,7 +152,7 @@ export default function Home() {
       ],
       demo: "http://localhost:3000/health",
       github: "https://github.com/enexspecial/discord-wallet-bot",
-      image: "/api/placeholder/400/250",
+      image: "/discordarch.png",
       highlights: [
         "Implemented secure webhook signature verification",
         "Built atomic transaction system preventing race conditions",
